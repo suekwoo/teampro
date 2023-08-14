@@ -1,0 +1,31 @@
+#row1 {
+    margin-top: 150px;
+    /* border: 1px solid #000; */
+    background-color: #F0EEED;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    /*다른 요소들보다 앞에 배치*/
+    background-color: aliceblue;
+}
+
+#dropdown-content a {
+    display: block;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
